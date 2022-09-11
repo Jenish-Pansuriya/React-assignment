@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.menu_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu_btn button{
+    padding: 4px 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(11, 146, 236);
+}
+.back_btn{
+    padding: 4px 45px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(11, 146, 236);
+}
+
+.plus span{
+    background-color: grey;
+    margin: 0;
+    height: 2px;
+    width: 500px;
+}
+.plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus_icon{
+    background-color: rgb(11, 146, 236);
+    color: #fff;
+   padding: 2px 5px;
+    border-radius: 50%;
+  font-size: 17px ;
+  cursor: pointer; 
+}
+.ans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 100px !important;
+}
+.thead{
+    background-color: black;
+    color: white;
+}
